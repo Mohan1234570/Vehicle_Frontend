@@ -10,7 +10,7 @@ const ScenarioForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.post('http://localhost:5000/scenarios', { name, time }).then(() => {
+    axios.post('https://vehicle-backend-3.onrender.com/scenarios', { name, time }).then(() => {
       setName('');
       setTime('');
     });
