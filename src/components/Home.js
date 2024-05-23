@@ -17,7 +17,7 @@ const Home = () => {
 
   const fetchScenarios = async () => {
     try {
-      const response = await axios.get('http://localhost:5000/scenarios');
+      const response = await axios.get('https://vehicle-backend-3.onrender.com/scenarios');
       setSelectedScenario(response.data);
     } catch (error) {
       console.error('Error fetching scenarios:', error);
@@ -26,7 +26,7 @@ const Home = () => {
 
   const fetchVehicles = async (scenarioId) => {
     try {
-      const response = await axios.get('http://localhost:5000/vehicles');
+      const response = await axios.get('https://vehicle-backend-3.onrender.com/vehicles');
       const scenarioVehicles = response.data.filter(vehicle => vehicle.scenarioId === scenarioId);
       setSimulationVehicles(scenarioVehicles);
     } catch (error) {
@@ -45,7 +45,6 @@ const Home = () => {
       return;
     }
 
-    // Simulate vehicle movement
     const interval = setInterval(() => {
       setSimulationVehicles(prevVehicles => {
         return prevVehicles.map(vehicle => {
