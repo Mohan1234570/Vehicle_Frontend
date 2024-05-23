@@ -13,7 +13,7 @@ const VehiclesList = () => {
 
   const fetchVehicles = async () => {
     try {
-      const response = await axios.get('http://localhost:5000/vehicles');
+      const response = await axios.get('https://vehicle-backend-3.onrender.com/vehicles');
       setVehicles(response.data);
     } catch (error) {
       console.error('Error fetching vehicles:', error);
@@ -22,7 +22,7 @@ const VehiclesList = () => {
 
   const handleDelete = async (id) => {
     try {
-      await axios.delete(`http://localhost:5000/vehicles/${id}`);
+      await axios.delete(`https://vehicle-backend-3.onrender.com/vehicles/${id}`);
       fetchVehicles();
     } catch (error) {
       console.error('Error deleting vehicle:', error);
@@ -44,7 +44,7 @@ const VehiclesList = () => {
 
   const handleSave = async () => {
     try {
-      await axios.put(`http://localhost:5000/vehicles/${currentVehicle.id}`, currentVehicle);
+      await axios.put(`https://vehicle-backend-3.onrender.com/vehicles/${currentVehicle.id}`, currentVehicle);
       setIsEditing(false);
       setCurrentVehicle(null);
       fetchVehicles();
