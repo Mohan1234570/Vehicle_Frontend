@@ -27,7 +27,7 @@ const VehicleForm = ({ scenarioId }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.post('http://localhost:5000/vehicles', { id, scenario,name, positionX, positionY, speed, direction, scenarioId }).then(() => {
+    axios.post('https://vehicle-backend-3.onrender.com', { id, scenario,name, positionX, positionY, speed, direction, scenarioId }).then(() => {
       setId('');
       setScenario('');
       setName('');
