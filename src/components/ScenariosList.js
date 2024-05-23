@@ -9,7 +9,7 @@ function ScenarioList() {
  
 
   useEffect(() => {
-    axios.get('http://localhost:5000/scenarios')
+    axios.get('https://vehicle-backend-3.onrender.com/scenarios')
       .then(response => setScenarios(response.data));
   }, []);
 
@@ -51,7 +51,7 @@ const ScenariosList = () => {
 
   const fetchScenarios = async () => {
     try {
-      const response = await axios.get('http://localhost:5000/scenarios');
+      const response = await axios.get('https://vehicle-backend-3.onrender.com/scenarios');
       setScenarios(response.data);
     } catch (error) {
       console.error('Error fetching scenarios:', error);
@@ -60,7 +60,7 @@ const ScenariosList = () => {
 
   const handleDelete = async (id) => {
     try {
-      await axios.delete(`http://localhost:5000/scenarios/${id}`);
+      await axios.delete(`https://vehicle-backend-3.onrender.com/scenarios/${id}`);
       fetchScenarios();
     } catch (error) {
       console.error('Error deleting scenario:', error);
@@ -82,7 +82,7 @@ const ScenariosList = () => {
 
   const handleSave = async () => {
     try {
-      await axios.put(`http://localhost:5000/scenarios/${currentScenario.id}`, currentScenario);
+      await axios.put(`https://vehicle-backend-3.onrender.com/scenarios/${currentScenario.id}`, currentScenario);
       setIsEditing(false);
       setCurrentScenario(null);
       fetchScenarios();
