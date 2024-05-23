@@ -1,0 +1,121 @@
+
+
+.scenarios-list-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    width: 180vh;
+  }
+  
+ .div-container{
+  background-color: black;
+  width: 200vh;
+  height: 98vh;
+ }
+
+  h2 {
+    text-align: center;
+  }
+  
+  .edit-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 18%;
+  }
+  
+  .edit-form input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .edit-form button {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .scenario-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30%;
+    padding: 1%;
+    width: 60vh;
+  }
+  
+  .scenario-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .scenario-list-item div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .scenario-list-item button {
+    padding: 5px 10px;
+    margin-left: 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .scenario-list-item button:hover {
+    background-color: #c82333;
+  }
+  
+  table {
+    border-collapse: separate;
+    display: inline;
+    width: 60%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+
+  tr:nth-child(even) {background-color: #574e4e;}
+
+  .responstable{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  .responstable td, .responstable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  .responstable tr:nth-child(even){background-color: #f2f2f2;}
+  .responstable tr:hover {background-color: #3a3333;}
+
+  .responstable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: rgb(45, 30, 30);
+    width: 130vh;
+  }
+  

@@ -1,0 +1,106 @@
+#sidebar {
+    grid-area: sidebar;
+    height: 100%;
+    background-color: #c4ccdbf8;
+    overflow-y: auto;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    padding: 1.4%;
+  }
+  
+  .sidebar-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px 0px 30px;
+    margin-bottom: 30px;
+  }
+  
+  .sidebar-title > span {
+    display: none;
+  }
+  
+  .sidebar-brand {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .sidebar-list {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .sidebar-list-item {
+    padding: 20px 20px 20px 20px;
+    font-size: 18px;
+  }
+  
+  .sidebar-list-item:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+  }
+  
+  .sidebar-list-item > a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  .sidebar-responsive {
+    display: inline !important;
+    position: absolute;
+    /*
+      we want the z-index of the sidebar higher so that
+      the charts are not showing over the sidebar 
+      on small screens
+    */
+    z-index: 12 !important;
+  }
+
+  .h2-text {
+    padding-bottom: 3%;
+  }
+
+  .input-div{
+    padding: 2%;
+    box-sizing: border-box;
+    background-color: rgb(66, 70, 71);
+    padding: 50px;
+    width: 800px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .add-scenario{
+    background-color: #000000;
+    height: 105vh;
+  }
+
+  .buttons-actions{
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-self: flex-start;
+  }
+
+  .div-container{
+     padding: 2%;
+     padding-left: 0%;
+  }
+
+  .form-container{
+    padding: 7%;
+    justify-content: center;
+  }
+
+  .button1{
+    background-color: green;
+  }
+  .button2{
+    background-color: orange;
+  }
+  .button3{
+    background-color: lightblue;
+  }

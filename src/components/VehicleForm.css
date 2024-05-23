@@ -1,0 +1,152 @@
+
+  
+  .sidebar {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .sidebar-list {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .sidebar-list-item {
+    padding: 20px 20px 20px 20px;
+    font-size: 18px;
+  }
+  
+  .sidebar-list-item:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+  }
+  
+  .sidebar-list-item > a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  .sidebar-responsive {
+    display: inline !important;
+    position: absolute;
+    
+    z-index: 12 !important;
+  }
+  .form-container{
+    padding: 3%;
+    margin-left: 30%;
+  }
+
+  .vehicle-form{
+    background-color: #000000;
+    height: 106vh;
+  }
+
+  .form-input-container{
+    padding: 1%;
+    box-sizing: border-box;
+    background-color: rgb(66, 70, 71);
+    padding: 170px;
+    padding-left: 60px;
+    width: 950px;
+    margin-bottom: 20px;
+  }
+  .buttons-action{
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  .button1{
+    background-color: green;
+  }
+  .button2{
+    background-color: orange;
+  }
+  .button3{
+    background-color: lightblue;
+  }
+
+  .forms-div{
+    padding: 0%;
+    display: flex;
+    justify-items: center;
+  }
+  
+
+  /*
+  .vehicle-form-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-group {
+    width: 80%;
+    margin: 10px 0;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
+  }
+  
+  .form-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+  }
+  
+  .form-buttons button {
+    width: 48%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-buttons button:hover {
+    background-color: #0056b3;
+  }
+  
+  .form{
+    margin-left: 18%;
+  }
+  .input-fields{
+    padding: 1%;
+    box-sizing: border-box;
+    background-color: rgb(66, 70, 71);
+    padding: 170px;
+    padding-left: 60px;
+    width: 900px;
+    margin-bottom: 20px;
+    
+  }
+
+  */
+  

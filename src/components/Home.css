@@ -1,0 +1,82 @@
+
+
+  .home-container {
+    display: flex;
+    margin-right: 20px;
+  }
+  
+  .div-options{
+    text-align: center;
+    height: 0vh;
+    padding-top: 10%;
+    width: 220vh;
+    margin-left: 1%;
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding-left: 0%;
+    width: 110%;
+  }
+  
+  .simulation-container {
+    padding-top: 5%;
+    width: 800px;
+    height: 400px;
+    position: relative;
+    border: 1px solid #d01616cd;
+    overflow: hidden;
+  }
+  
+  .vehicle {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    transition: all 10s;
+  }
+  
+  .scenarios-list{
+    padding: 4%;
+    margin: 19%;
+    align-items: center;
+    margin-top: 0%;
+    padding-top: 1%;
+  }
+
+  .sidebar{
+    padding-left: 10%;
+    align-items: center;
+    margin: 20%;
+    margin-top: 0.4%;
+    height: 20vh;
+    padding: 100vh;
+    background-color: black;
+  }
+  
+  .container-list{
+    padding-top: 12%;
+  }
+
+.vehicle-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.vehicle-list-item button {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.vehicle-list-item button:hover {
+    background-color: #c82333;
+}
+
+
