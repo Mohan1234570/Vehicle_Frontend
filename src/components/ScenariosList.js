@@ -1,38 +1,4 @@
-/*
-import React, { useEffect, useState } from 'react';
-import axios from 'axios';
-import Sidebar from './SideBar';
-import './ScenarioList.css';
 
-function ScenarioList() {
-  const [scenarios, setScenarios] = useState([]);
- 
-
-  useEffect(() => {
-    axios.get('https://vehicle-backend-3.onrender.com/scenarios')
-      .then(response => setScenarios(response.data));
-  }, []);
-
-  return (
-    <div className='container'>
-      <Sidebar />
-      <div className='scenarios'>
-      <h2 className='h2-tag'>Scenarios</h2>
-      <div className='scenarios-list'>
-      <ul>
-        {scenarios.map(scenario => (
-          <li key={scenario.id}>{scenario.id} {scenario.name} {scenario.time}</li>
-        ))}
-      </ul>
-      </div>
-      </div>
-    </div>
-  );
-}
-
-export default ScenarioList;
-
-*/
 
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
