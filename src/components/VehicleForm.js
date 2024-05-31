@@ -15,15 +15,6 @@ const VehicleForm = ({ scenarioId }) => {
   const [direction, setDirection] = useState('Towards');
   const [scenario, setScenario] = useState('')
   const [id, setId] = useState('');
-  const [vehicle, setVehicle] = useState({
-    id: '',
-    scenario: '',
-    name: '',
-    initialPositionX: '',
-    initialPositionY: '',
-    speed: '',
-    direction: '',
-  });
 
   const handleSubmit = (e) => {
     e.preventDefault();
